@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cdc4001-53dd-475b-9e2b-64eb3accdde7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/selectionsort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/selectionsort/SelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/selectionsort/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../goods/goods.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/mybatis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis0928/mybatis0928.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../secondary market/secondary market.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/springboot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc/springmvc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store/store.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test1/test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../try1/try1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../try2/try2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/shellsort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/shellsort/ShellSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/shellsort/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSort/com/example/bubblesort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSort/com/example/bubblesort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSort/com/example/bubblesort/BubbleSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSort/com/example/bubblesort/BubbleSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSort/com/example/bubblesort/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/bubblesort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSort/com/example/selectionsort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSort/com/example/selectionsort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/insertionsort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/insertionsort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/insertionsort/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/insertionsort/InsertionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/insertionsort/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/insertionsort/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +71,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.SelectionSortTest">
-    <configuration name="BubbleSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.bubblesort.BubbleSortTest" />
+  <component name="RunManager" selected="Application.ShellSortTest">
+    <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.insertionsort.InsertionSortTest" />
       <module name="JavaSort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.bubblesort.*" />
+          <option name="PATTERN" value="com.example.insertionsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.selectionsort.test" />
+    <configuration name="ShellSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.shellsort.ShellSortTest" />
       <module name="JavaSort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.selectionsort.*" />
+          <option name="PATTERN" value="com.example.shellsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.insertionsort.test" />
+      <module name="JavaSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.insertionsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +125,11 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.bubblesort.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.shellsort.test" />
       <module name="JavaSort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.bubblesort.*" />
+          <option name="PATTERN" value="com.example.shellsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSortTest" />
-        <item itemvalue="Application.test (1)" />
-        <item itemvalue="Application.BubbleSortTest" />
+        <item itemvalue="Application.ShellSortTest" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.InsertionSortTest" />
+        <item itemvalue="Application.test (2)" />
+        <item itemvalue="Application.SelectionSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +171,9 @@
       <updated>1602145607873</updated>
       <workItem from="1602145609242" duration="1566000" />
       <workItem from="1602147219142" duration="5564000" />
-      <workItem from="1602156935362" duration="11047000" />
+      <workItem from="1602156935362" duration="11646000" />
+      <workItem from="1602205561583" duration="2167000" />
+      <workItem from="1602219151213" duration="10935000" />
     </task>
     <servers />
   </component>
@@ -177,42 +181,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="571" y="114" key="CommitChangelistDialog2" timestamp="1602250218904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602250218904" />
     <state x="756" y="278" key="FileChooserDialogImpl" timestamp="1602157221894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602157221894" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602167128721">
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom" timestamp="1602250219038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602167128721" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602167128721">
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602250219038" />
+    <state width="1860" height="282" key="GridCell.Tab.0.center" timestamp="1602250219038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602167128721" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602167128721">
+    <state width="1860" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602250219038" />
+    <state width="1860" height="282" key="GridCell.Tab.0.left" timestamp="1602250219038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602167128721" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602167128721">
+    <state width="1860" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602250219038" />
+    <state width="1860" height="282" key="GridCell.Tab.0.right" timestamp="1602250219038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602167128721" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602166826219">
+    <state width="1860" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602250219038" />
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1602249458792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602166826219" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1602166826219">
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602249458792" />
+    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1602249458792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602166826219" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1602166826219">
+    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602249458792" />
+    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1602249458791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602166826219" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1602166826219">
+    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602249458791" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1602249458792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602166826219" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602249458792" />
     <state x="640" y="377" width="672" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602157288865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
